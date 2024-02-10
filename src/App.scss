@@ -1,0 +1,124 @@
+/* Base Styles */
+.golden-text {
+  color: gold;
+}
+
+.golden-textHeader {
+  color: gold;
+  font-weight: bold;
+}
+
+.card {
+  margin: 15px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+.card-body-v1 {
+  padding: 0.5rem 0.5rem;
+  background-color: #050505c7;
+  border-radius: 15px;
+  color: #23f3a0;
+}
+.address-text{
+  margin: 10px;
+  text-align: center; /* Align text to the right */
+}
+.text-right{
+  margin: 10px;
+  text-align: center; /* Align text to the right */
+}
+.card-body {
+  padding: 1.75rem 1.5625rem;
+  background-color: #050505c7;
+  border-radius: 15px;
+  color: #23f3a0;
+}
+
+.card-reg {
+  margin: 15px;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-body-reg {
+  padding: 1.75rem 1.5625rem;
+  background-color: #050505c7;
+  border-radius: 15px;
+  color: #23f3a0;
+}
+
+/* Form Styles */
+.form-control {
+  border: 1px solid #2c2e33;
+  height: 40px;
+  font-size: 16px;
+  padding: 0.625rem 0.6875rem;
+  background-color: #0c2447;
+  border-radius: 2px;
+  color: #ffffff;
+}
+
+/* Button Styles */
+.submitbtn_ {
+  color: #ffffff;
+  background-color: #23def3;
+  border: none;
+  border-radius: 22px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submitbtn_:hover {
+  background-color: #0fb8ad;
+}
+
+/* Loader Overlay Styles */
+.loader-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.loader-overlay div {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Additional Styles */
+.home-container {
+  padding-top: 20px;
+  background-color: #dfe1e7;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+  border-radius: 50px;
+}
+
+// .submitbtn1 {
+//   /* Use multiple background images */
+//   background-image: url('./assets/images/logo.png'), url('./assets/images/logo-v1.png');
+//   /* Adjust background size if needed */
+//  backgroundSize: "cover","cover";// Adjust background size if needed, auto;
+//   /* Adjust background repeat if needed */
+//   background-repeat: no-repeat, no-repeat;
+//   /* Adjust width and height as needed */
+//   width: 100px;
+//   height: 100px;
+//   /* Additional styling properties */
+//   /* Add other styling properties as needed */
+// }
